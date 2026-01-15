@@ -39,13 +39,31 @@ git tag v1.0.0
 git push origin v1.0.0
 ```
 
-## 4. Build Release APK
+## 4. Setup Signing Keys (First time only)
+To build a signed release, you need a keystore and configuration in `local.properties`.
+
+1. **Generate Keystore** (if you don't have one):
+   Run this command in the project root:
+   ```bash
+   keytool -genkey -v -keystore keystore.jks -alias key0 -keyalg RSA -keysize 2048 -validity 10000
+   ```
+   *Note: Keep your keystore and passwords safe! `keystore.jks` should NOT be committed to git (add it to `.gitignore` if not already ignored).*
+
+2. **Configure `local.properties`**:
+   Add the following lines to `local.properties` (replace with your actual passwords):
+   ```properties
+   storePassword=YOUR_STORE_PASSWORD
+   keyAlias=key0
+   keyPassword=YOUR_KEY_PASSWORD
+   ```
+
+## 5. Build Release APK
 Build the signed release APK.
 
 ```bash
 ./gradlew assembleRelease
 ```
-*Note: You may need to configure signing keys in `local.properties` or `build.gradle.kts` if not already set up. If just for testing, debug build might be sufficient, or you can use the debug signature.*
+*The APK will be signed using the configuration from `local.properties`.*
 
 ## 5. Push to GitHub
 Push your commits to the main branch.
