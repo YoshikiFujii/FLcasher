@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">FLcasher</string>
+    
+    <!-- Register -->
+    <string name="initial_cash_amount">初期の金額</string>
+    <string name="title_open_register">レジを開く</string>
+    <string name="msg_open_register">釣銭準備金を入力してください。</string>
+    <string name="btn_open">開始</string>
+    <string name="toast_register_opened">レジを開始しました</string>
+    <string name="btn_cancel">キャンセル</string>
+    
+    <!-- Close Register -->
+    <string name="title_close_register">精算（レジ締め）</string>
+    <string name="info_close_register">開始残高: ¥%1$d\n売上(サーバー): ¥%2$d\n予想合計: ¥%3$d</string>
+    <string name="hint_actual_cash">実有高（現金）</string>
+    <string name="label_difference">過不足: </string>
+    <string name="btn_close_register">レジ締め実行</string>
+    <string name="toast_register_closed">レジを締めました</string>
+    <string name="toast_reset_order_failed">注文番号のリセットに失敗しました。サーバーを確認してください。</string>
+    
+    <!-- Discount -->
+    <string name="title_add_discount">値引き登録</string>
+    <string name="msg_add_discount">値引き額を入力してください (例: 500)</string>
+    <string name="btn_add">追加</string>
+    <string name="toast_invalid_amount">金額が無効です</string>
+    <string name="toast_discount_added">値引きを追加しました</string>
+    <string name="toast_discount_failed">追加に失敗しました</string>
+    <string name="title_delete_discount">値引き削除</string>
+    <string name="msg_delete_discount">\'%1$s\' を削除しますか？</string>
+    <string name="btn_delete">削除</string>
+    <string name="toast_discount_deleted">削除しました</string>
+    <string name="toast_delete_failed">削除に失敗しました</string>
+    
+    <!-- Cart & Checkout -->
+    <string name="total_amount_format">¥%1$d</string>
+    <string name="label_total">合計</string>
+    <string name="label_received">お預かり</string>
+    <string name="label_change">お釣り</string>
+    <string name="btn_pay">会計</string>
+    <string name="btn_clear">クリア</string>
+    <string name="toast_insufficient_amount">金額が不足しています</string>
+    <string name="toast_order_sent">注文送信完了! ID: %1$s</string>
+    <string name="toast_order_failed">注文送信に失敗しました</string>
+    
+    <!-- Network -->
+    <string name="title_server_ip">サーバーIP入力</string>
+    <string name="btn_connect">接続</string>
+    <string name="toast_fetching_products">商品一覧を取得中...</string>
+    <string name="toast_fetch_failed">取得失敗、または商品がありません</string>
+    <string name="toast_products_loaded">%1$d 点の商品を読み込みました</string>
+    
+    <!-- Printing -->
+    <string name="toast_bluetooth_required">印刷にはBluetooth権限が必要です</string>
+    <string name="toast_attempting_print">印刷試行中: %1$s</string>
+    <string name="toast_print_sent">Bluetoothで送信しました</string>
+    <string name="toast_print_failed">印刷に失敗しました</string>
+    <string name="toast_print_error">印刷エラー: %1$s</string>
+    <string name="title_print_settings">印刷設定</string>
+    <string name="switch_enable_printing">レシート印刷を有効化</string>
+    <string name="switch_include_order_num">注文番号を印字</string>
+    <string name="msg_no_devices">ペアリングされたデバイスが見つかりません</string>
+    <string name="btn_test_print">テスト印刷</string>
+    <string name="toast_test_sent">テスト送信完了</string>
+    <string name="toast_test_failed">テスト送信失敗</string>
+    <string name="label_select_device_hint">印刷端末を選択（先に本体設定でペアリングを完了してください。）</string>
+    <string name="toast_select_device">デバイスを選択してください</string>
+    <string name="btn_save">保存</string>
+    <string name="toast_settings_saved">設定を保存しました</string>
+    
+    <!-- Permissions -->
+    <string name="title_permission_required">権限が必要です</string>
+    <string name="msg_permission_rationale">プリンター接続のためにBluetooth権限が必要です。次の画面で許可してください。</string>
+    <string name="btn_ok">OK</string>
+    <string name="title_permission_denied">権限が拒否されました</string>
+    <string name="msg_permission_denied">Bluetooth権限がないため印刷できません。本体の設定から許可してください。</string>
+    
+    <!-- Print Queue -->
+    <string name="toast_saved_to_queue">印刷失敗。キューに保存しました。</string>
+    <string name="toast_queue_empty">印刷キューは空です</string>
+    <string name="title_pending_jobs">未送信ジョブ</string>
+    <string name="btn_close">閉じる</string>
+    <string name="btn_retry">再試行</string>
+    <string name="toast_print_success">印刷成功</string>
+    <string name="toast_retry_failed">再試行失敗</string>
+
+    <string name="btn_next_order">OK (次へ)</string>
+</resources>

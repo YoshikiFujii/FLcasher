@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">FLcasher</string>
+    
+    <!-- Register -->
+    <string name="initial_cash_amount">Initial Cash Amount</string>
+    <string name="title_open_register">Open Register</string>
+    <string name="msg_open_register">Enter amount of cash in calculator.</string>
+    <string name="btn_open">Open</string>
+    <string name="toast_register_opened">Register Opened</string>
+    <string name="btn_cancel">Cancel</string>
+    
+    <!-- Close Register -->
+    <string name="title_close_register">Close Register</string>
+    <string name="info_close_register">Start Cash: ¥%1$d\nSales (Server): ¥%2$d\nExpected Total: ¥%3$d</string>
+    <string name="hint_actual_cash">Actual Cash Amount</string>
+    <string name="label_difference">Difference: </string>
+    <string name="btn_close_register">Close Register</string>
+    <string name="toast_register_closed">Register Closed</string>
+    <string name="toast_reset_order_failed">Failed to Reset Order Number. Check Server.</string>
+    
+    <!-- Discount -->
+    <string name="title_add_discount">Add Discount Card</string>
+    <string name="msg_add_discount">Enter discount amount (e.g. 500)</string>
+    <string name="btn_add">Add</string>
+    <string name="toast_invalid_amount">Invalid Amount</string>
+    <string name="toast_discount_added">Discount Added</string>
+    <string name="toast_discount_failed">Failed to Add Discount</string>
+    <string name="title_delete_discount">Delete Discount</string>
+    <string name="msg_delete_discount">Remove \'%1$s\'?</string>
+    <string name="btn_delete">Delete</string>
+    <string name="toast_discount_deleted">Discount Deleted</string>
+    <string name="toast_delete_failed">Failed to Delete</string>
+    
+    <!-- Cart & Checkout -->
+    <string name="total_amount_format">¥%1$d</string>
+    <string name="label_total">Total</string>
+    <string name="label_received">Received</string>
+    <string name="label_change">Change</string>
+    <string name="btn_pay">PAY</string>
+    <string name="btn_clear">C</string>
+    <string name="toast_insufficient_amount">Insufficient Amount</string>
+    <string name="toast_order_sent">Order Sent! ID: %1$s</string>
+    <string name="toast_order_failed">Failed to send order</string>
+    
+    <!-- Network -->
+    <string name="title_server_ip">Enter Admin/Server IP</string>
+    <string name="btn_connect">Connect</string>
+    <string name="toast_fetching_products">Fetching Products...</string>
+    <string name="toast_fetch_failed">Failed to fetch or empty list</string>
+    <string name="toast_products_loaded">Loaded %1$d Products</string>
+    
+    <!-- Printing -->
+    <string name="toast_bluetooth_required">Bluetooth permission required for printing</string>
+    <string name="toast_attempting_print">Attempting print to: %1$s</string>
+    <string name="toast_print_sent">Receipt Sent via Bluetooth</string>
+    <string name="toast_print_failed">Print Failed</string>
+    <string name="toast_print_error">Print Error: %1$s</string>
+    <string name="title_print_settings">Print Settings</string>
+    <string name="switch_enable_printing">Enable Receipt Printing</string>
+    <string name="switch_include_order_num">Include Order Number</string>
+    <string name="msg_no_devices">No paired devices found</string>
+    <string name="btn_test_print">Test Print</string>
+    <string name="toast_test_sent">Test Sent</string>
+    <string name="toast_test_failed">Test Failed</string>
+    <string name="label_select_device_hint">Select printer (Please pair in system settings first)</string>
+    <string name="toast_select_device">Select a device first</string>
+    <string name="btn_save">Save</string>
+    <string name="toast_settings_saved">Settings Saved</string>
+    
+    <!-- Permissions -->
+    <string name="title_permission_required">Permission Required</string>
+    <string name="msg_permission_rationale">Bluetooth permission is required to connect to the printer. Please allow access in the next screen.</string>
+    <string name="btn_ok">OK</string>
+    <string name="title_permission_denied">Permission Denied</string>
+    <string name="msg_permission_denied">Without Bluetooth permission, printing will not work. You can grant it from Android Settings.</string>
+    
+    <!-- Print Queue -->
+    <string name="toast_saved_to_queue">Print Failed. Saved to Queue.</string>
+    <string name="toast_queue_empty">Print Queue is Empty</string>
+    <string name="title_pending_jobs">Pending Print Jobs</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_retry">Retry</string>
+    <string name="toast_print_success">Print Success</string>
+    <string name="toast_retry_failed">Retry Failed</string>
+
+    <string name="btn_next_order">OK (Next)</string>
+</resources>

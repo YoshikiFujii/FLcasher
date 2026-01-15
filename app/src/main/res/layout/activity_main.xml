@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Mode"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="48dp" />
+
+    <Button
+        android:id="@+id/btn_mode_admin"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Admin (Server)"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btn_mode_casher"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Casher (Client)"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btn_mode_kitchen"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Kitchen (Client)"
+        android:textSize="18sp"/>
+        
+</LinearLayout>
+
+

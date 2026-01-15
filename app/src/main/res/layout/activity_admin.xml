@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_server_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Server Status: Stopped"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+        
+    <Button
+        android:id="@+id/btn_toggle_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Server"
+        android:backgroundTint="@android:color/holo_green_light"/>
+
+    <Button
+        android:id="@+id/btn_manage_products"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Products" />
+
+    <Button
+        android:id="@+id/btn_sales_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sales Report" />
+
+    <Button
+        android:id="@+id/btn_order_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order History" />
+
+    <Button
+        android:id="@+id/btn_reset_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset Database (Fix Crash)"
+        android:backgroundTint="#D32F2F"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="32dp"/>
+
+</LinearLayout>
